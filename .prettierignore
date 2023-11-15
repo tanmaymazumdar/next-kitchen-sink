@@ -1,0 +1,21 @@
+// .prettierignore
+# Add files here to ignore them from prettier formatting
+/node_modules
+/build
+/dist
+/out
+/coverage
+/.idea
+/.fleet
+/.turbo
+/turbo
+
+/.vscode
+.git/
+.svn/
+.editorconfig
+.exe
+.gif
+.jpg
+.png
+.yarn
