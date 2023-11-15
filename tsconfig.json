@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    // When enabled, the diff editor ignores changes in leading or trailing whitespace.
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    // Consider setting “skipLibCheck”: true, for larger projects to skip type checking 
+    // declaration files from external libraries.
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    // Use “ESNext” or “ES6” for modern projects and “CommonJS” or “UMD” for Node.js or for 
+    // older systems.  
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "strictBindCallApply": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "declaration": true,
+    "declarationDir": "./src/typings/",
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
